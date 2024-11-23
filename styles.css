@@ -1,0 +1,187 @@
+header {
+    background-image: url(IMG/222222.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    border-radius: 400px;
+    width: 70px;
+}
+
+.menu_bar {
+    display: none;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    max-width: 80%;
+}
+
+.header_menu a {
+    font-weight: 500;
+    padding: 3px 8px;
+}
+
+.header_menu a:hover {
+    background-color: rgb(69, 48, 122);
+    border-radius: 9px;
+    color: white;
+    
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo span {
+    padding-left: 35px;
+    font-size: 23px;
+    font-weight: 900;
+    color: rgb(69, 48, 122);
+    font-family: 'roboto';
+}
+
+.nav_bar {
+    display: flex;
+}
+
+.nav_bar ul {
+    display: flex;
+}
+
+.nav_bar li {
+    padding-left: 80px;
+    text-transform: capitalize;
+}
+
+.home {
+    background-color: rgb(69, 48, 122);
+    border-radius: 9px;
+    color: white;
+}
+
+.contact_bg {
+    display: flex;
+    flex-direction: column;
+    color: rgb(69, 48, 122);
+    font-size: 30px;
+    font-weight: 800;
+    max-width: 70%;
+    align-items: flex-end;
+    
+}
+
+.chven {
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: 'georgia';
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.contact_bg i {
+    color: gray;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;    
+}
+
+.number i {
+    padding-left: 20px;
+}
+
+.number a {
+    color: rgb(69, 48, 122);
+    font-weight: 700;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.address_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 20px;
+    font-weight: 900;
+}
+/* services */
+.our_services {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.chveni_servisebi {
+    margin: auto;
+    max-width: fit-content;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.services_blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services_block {
+    max-width: 23%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(69, 48, 122);
+    border-radius: 7px;
+    justify-content: space-between;
+    color: white;
+    font-family: 'georgian';
+    padding: 13px 7px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+
+.services_block svg {
+    max-width: fit-content;
+    margin: auto;
+    max-width: 50px;
+    margin-top: 40px;
+    
+}
+
+.services_block p {
+    font-size: 14px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.svg {
+    width: 40px;  
+    height: fit-content;
+}
+
+.services_block span {
+    font-weight: 900;
+    font-size: larger;
+    color: rgb(237, 184, 69);
+}
+
+.svgg {
+    width: 41px;
+    height: 41px;
+}
+
+
+
+

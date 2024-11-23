@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: georgian;
+    src: url(Fonts/bpg_nino_mtavruli_bold.ttf);
+}
+
+body {
+    font-family: "Geist Mono";
+}
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.container {
+    max-width: 70%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+

@@ -1,0 +1,121 @@
+@media (max-width: 1200px) {
+
+    header {
+        background-image: url(IMG/222222.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .header_logo span {
+        font-size: 20px;
+    }
+
+    .header_menu {
+        overflow: hidden;
+        padding-bottom: 90px;
+    }
+
+    .nav_bar {
+        display: none;
+    }
+
+    .menu_bar {
+        display: block;
+    }
+
+    .contact_bg {
+        font-size: 16px;
+    }
+
+    .chven {
+        font-size: 40px;
+    }
+
+    .services_block {
+        max-width: 30%;
+        font-size: small;
+    }
+    
+    .services_block svg {
+        width: small;
+    }
+}
+
+
+
+/* @media (max-width: 650px) {
+    .chven {
+        font-size: 180%;
+        
+    }
+    .contact_bg {
+        justify-content: center;
+        color: rgb(7, 7, 104);
+        text-align: end;
+    }
+
+    .contact_bg a {
+        color: rgb(7, 7, 104);
+    }
+
+    .contact_bg i {
+        color: rgb(69, 48, 122);
+    }
+
+    .services_block {
+        max-width: 25%;
+        font-size: 10px;
+        flex-wrap: wrap;
+        background-size: cover;
+        /* overflow: scroll; */
+    /* }
+
+    .services_block svg {
+        background-color: red;
+    }
+
+    .time_managment {
+        display: none;
+    }
+} */
+
+@media (max-width: 768px) {
+    .our_services {
+        padding: 10px;
+    }
+
+    .services_blocks {
+        flex-direction: column; /* Stack services vertically */
+        gap: 20px; /* Add spacing between blocks */
+    }
+
+    .services_block {
+        max-width: 100%; /* Make blocks take full width */
+        margin: 0 auto; /* Center blocks horizontally */
+        padding: 15px; /* Adjust padding for better touch targets */
+    }
+
+    .services_block svg {
+        max-width: 70px; /* Scale icons for smaller screens */
+        margin-top: 10px; /* Adjust spacing above the icons */
+    }
+
+    .services_block p {
+        font-size: 14px; /* Adjust text size for readability */
+    }
+}
+
+@media (max-width: 480px) {
+    .services_block {
+        padding: 10px; /* Reduce padding for very small screens */
+        font-size: 12px; /* Further adjust text size */
+    }
+
+    .services_block svg {
+        max-width: 50px; /* Further scale down icons */
+    }
+}
